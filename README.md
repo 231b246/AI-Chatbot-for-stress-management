@@ -16,14 +16,18 @@ and the frontend is a lightweight HTML/JS interface for real-time chatting.
 
 ##  Project Structure
 
-├── app.py # FastAPI backend
+
+```
+├── app.py                # FastAPI backend
 ├── requirements.txt
-├── .env # Contains HF_TOKEN & HF_MODEL
+├── .env                  # Contains HF_TOKEN & HF_MODEL
 ├── frontend/
-│ ├── index.html
-│ ├── styles.css
-│ └── script.js
+│   ├── index.html
+│   ├── styles.css
+│   └── script.js
 └── README.md
+```
+
 
 ##  Start Server
 
