@@ -1,11 +1,28 @@
-#core libraries
-langchain
-llama-index
-haystack
-#for a backend server
-fastapi
-uvicorn
 
-#Addi5tional tools
-requests
-python-dotenv 
+# Core LLM & Knowledge Frameworks
+
+langchain==0.2.1
+llama-index==0.11.3
+
+# Backend Server
+
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+
+# Model + API Integration
+
+huggingface_hub==0.26.2
+transformers==4.45.2
+sentence-transformers==3.2.1
+
+# Utility Modules
+
+requests==2.32.3
+python-dotenv==1.0.1
+pydantic==2.9.2
+
+
+
+# Deployment & Web Handling
+
+Local Host using Live Server with the help of VS-Code
